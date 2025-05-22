@@ -41,3 +41,7 @@ Example 2: Group By Multiple Columns (Student subject and and year)
 Example 1: Departments with total salary ≥ 100,000 
 ![](../image/13.PNG)
 
+
+Example 2: Subjects with more than 1 student in any year
+![](../image/15.PNG)
+
