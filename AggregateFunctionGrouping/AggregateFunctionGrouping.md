@@ -37,3 +37,7 @@ Example 1: Group By Single Column (Employee name with total salary)
 
 Example 2: Group By Multiple Columns (Student subject and and year)
 ![](../image/12.PNG)
+
+Example 1: Departments with total salary ≥ 100,000 
+![](../image/13.PNG)
+
