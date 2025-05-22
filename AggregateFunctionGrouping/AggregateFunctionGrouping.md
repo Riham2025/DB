@@ -34,3 +34,6 @@ Table :
 
 Example 1: Group By Single Column (Employee name with total salary)
 ![](../image/10.PNG)
+
+Example 2: Group By Multiple Columns (Student subject and and year)
+![](../image/12.PNG)
