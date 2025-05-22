@@ -31,3 +31,6 @@ Table :
 
 4. Find the Highest and Lowest Salary 
 ![](../image/9.PNG)
+
+Example 1: Group By Single Column (Employee name with total salary)
+![](../image/10.PNG)
