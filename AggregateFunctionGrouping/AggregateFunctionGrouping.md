@@ -26,3 +26,5 @@ Table :
 1. Count the Total Number of Employees
 ![](../image/7.PNG)
 
+2. Calculate the Total Salary (ignoring NULL values)
+![](../image/8.PNG)
