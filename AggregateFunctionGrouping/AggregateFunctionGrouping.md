@@ -28,3 +28,6 @@ Table :
 
 2. Calculate the Total Salary (ignoring NULL values)
 ![](../image/8.PNG)
+
+4. Find the Highest and Lowest Salary 
+![](../image/9.PNG)
