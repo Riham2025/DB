@@ -16,3 +16,11 @@ TASK 2:
 
 Table : 
 ![](../image/5.PNG)
+
+
+
+
+##TASK 3:
+![](../image/6.PNG)
+
+1. Count the Total Number of Employees
