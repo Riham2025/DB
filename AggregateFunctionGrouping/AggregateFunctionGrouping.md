@@ -24,3 +24,5 @@ Table :
 ![](../image/6.PNG)
 
 1. Count the Total Number of Employees
+![](../image/7.PNG)
+
