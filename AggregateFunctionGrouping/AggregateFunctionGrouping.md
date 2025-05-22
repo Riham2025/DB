@@ -8,3 +8,11 @@ TASK ONE :
 ![](../image/2.PNG)
 
 
+TASK 2:
+
+![](../image/3.PNG)
+![](../image/4.PNG)
+
+
+Table : 
+![](../image/5.PNG)
