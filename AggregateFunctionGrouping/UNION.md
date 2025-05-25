@@ -12,6 +12,10 @@ Your goal is to:
 • Compare the data of both groups. 
 • Clean or restructure the database safely. 
 • Explore more advanced SQL topics on your own (subqueries, transactions).
-![]: # ![](../image/a.PNG)
+ ![](../image/a.PNG)
 
-
+Part 1: UNION Practice 
+1. List all unique people who either trained or applied for a job. 
+o Show their full names and emails. 
+o Use UNION (not UNION ALL) to avoid duplicates.
+ ![](../image/s.PNG)
