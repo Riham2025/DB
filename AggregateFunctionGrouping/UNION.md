@@ -39,6 +39,9 @@ o Check if the table structure still exists.
 o What happens to the data? Can you roll it back? 
 ![](../image/h.PNG)
 
+6. Try DROP TABLE Applicants. 
+o What happens if you run a SELECT after that?
+
 
 
 
