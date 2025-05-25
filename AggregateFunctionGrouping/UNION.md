@@ -41,6 +41,7 @@ o What happens to the data? Can you roll it back?
 
 6. Try DROP TABLE Applicants. 
 o What happens if you run a SELECT after that?
+![](../image/i.PNG)
 
 
 
