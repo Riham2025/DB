@@ -54,11 +54,22 @@ Goal: Understand what a subquery is and how it's used inside SQL commands.
 
  1. Research: 
 	
-What is a Subquery in SQL?
+1. What is a Subquery in SQL?
 A subquery (or inner query) is an SQL query nested inside another SQL query.
 It is used to get data needed by the main (outer) query.
 It can be placed inside SELECT, FROM, WHERE, or other parts of an SQL statement.
 It returns a result (one or more rows) that the outer query uses..
+
+
+2. Where can we use subqueries? (e.g., in SELECT, WHERE, FROM)
+In the WHERE clause
+To filter rows based on the result of another query.
+1. In the FROM clause
+To treat the subquery result as a temporary table (called a derived table or inline view).
+3. In the SELECT clause
+To calculate or retrieve a single value per row.
+4. In the HAVING clause
+To filter groups based on a subquery condition.
 
 
 
