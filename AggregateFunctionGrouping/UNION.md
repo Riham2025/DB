@@ -22,3 +22,9 @@ o Use UNION (not UNION ALL) to avoid duplicates.
 
  2. Now use UNION ALL. What changes in the result? 
 o Explain why one name appears twice. 
+![](../image/d.PNG)
+
+3. Find people who are in both tables. 
+o You must use INTERSECT if supported, or simulate it using INNER JOIN on Email. 
+ ![](../image/f.PNG)
+
