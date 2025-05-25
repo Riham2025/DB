@@ -35,6 +35,9 @@ Let’s test destructive commands.
 o Check if the table structure still exists.
 ![](../image/g.PNG)
 
+5.Try TRUNCATE TABLE Applicants. 
+o What happens to the data? Can you roll it back? 
+
 
 
 
