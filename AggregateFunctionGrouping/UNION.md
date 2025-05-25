@@ -31,3 +31,6 @@ o You must use INTERSECT if supported, or simulate it using INNER JOIN on Email.
  Part 2: DROP, DELETE, TRUNCATE Observation 
 Let’s test destructive commands.
 
+4. Try DELETE FROM Trainees WHERE Program = 'Outsystems'. 
+o Check if the table structure still exists.
+
