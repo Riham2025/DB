@@ -43,6 +43,8 @@ o What happens to the data? Can you roll it back?
 o What happens if you run a SELECT after that?
 ![](../image/i.PNG)
 
+Part 3: Self-Discovery & Applied Exploration
+
 
 
 
