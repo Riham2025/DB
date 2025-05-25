@@ -72,6 +72,15 @@ To calculate or retrieve a single value per row.
 To filter groups based on a subquery condition.
 
 
+1.  Task: 
+o Write a query to find all trainees whose emails appear in the applicants table. 
+o You must use a subquery inside a WHERE clause.
+SELECT *
+FROM Trainees
+WHERE Email IN (SELECT Email FROM Applicants);
+
+
+
 
 
 
