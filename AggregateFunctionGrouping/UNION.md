@@ -33,4 +33,8 @@ Let’s test destructive commands.
 
 4. Try DELETE FROM Trainees WHERE Program = 'Outsystems'. 
 o Check if the table structure still exists.
+![](../image/g.PNG)
+
+
+
 
