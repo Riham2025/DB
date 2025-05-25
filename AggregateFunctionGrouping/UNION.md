@@ -19,3 +19,6 @@ Part 1: UNION Practice
 o Show their full names and emails. 
 o Use UNION (not UNION ALL) to avoid duplicates.
  ![](../image/s.PNG)
+
+ 2. Now use UNION ALL. What changes in the result? 
+o Explain why one name appears twice. 
