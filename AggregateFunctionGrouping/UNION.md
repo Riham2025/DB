@@ -44,6 +44,25 @@ o What happens if you run a SELECT after that?
 ![](../image/i.PNG)
 
 Part 3: Self-Discovery & Applied Exploration
+In this section, you’ll independently research, experiment, and apply advanced SQL concepts. 
+Follow the guided prompts below.
+Part 3: Self-Discovery & Applied Exploration 
+In this section, you’ll independently research, experiment, and apply advanced SQL concepts. 
+Follow the guided prompts below. 
+Subquery Exploration 
+Goal: Understand what a subquery is and how it's used inside SQL commands.
+
+ 1. Research: 
+	
+What is a Subquery in SQL?
+A subquery (or inner query) is an SQL query nested inside another SQL query.
+It is used to get data needed by the main (outer) query.
+It can be placed inside SELECT, FROM, WHERE, or other parts of an SQL statement.
+It returns a result (one or more rows) that the outer query uses..
+
+
+
+
 
 
 
