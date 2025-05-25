@@ -37,6 +37,7 @@ o Check if the table structure still exists.
 
 5.Try TRUNCATE TABLE Applicants. 
 o What happens to the data? Can you roll it back? 
+![](../image/h.PNG)
 
 
 
