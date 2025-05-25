@@ -28,3 +28,6 @@ o Explain why one name appears twice.
 o You must use INTERSECT if supported, or simulate it using INNER JOIN on Email. 
  ![](../image/f.PNG)
 
+ Part 2: DROP, DELETE, TRUNCATE Observation 
+Let’s test destructive commands.
+
