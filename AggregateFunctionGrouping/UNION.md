@@ -112,6 +112,14 @@ COMMIT;
 -- ROLLBACK;
 
 
+5. Task: 
+o Write a script that: 
+? Starts a transaction 
+? Tries to insert two new applicants 
+? The second insert should have a duplicate ApplicantID (to force failure) 
+? Rollback the whole transaction if any error occurs
+
+
 
 
 
