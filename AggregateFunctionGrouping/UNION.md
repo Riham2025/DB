@@ -91,6 +91,10 @@ WHERE Email IN (SELECT Email FROM Trainees);
 Batch Script & Transactions
 4. Research: 
 o What is a SQL transaction? 
+A SQL Transaction (transaction in SQL) is a set of operations
+(such as INSERT, UPDATE, DELETE)
+executed as a single unit. Either all of them are executed effectively,
+or all of them are issued if an error occurs.
 
 
 
