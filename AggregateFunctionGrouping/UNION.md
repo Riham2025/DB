@@ -135,6 +135,14 @@ o Consistency
 o Isolation 
 o Durability
 
+| Property            | Description                                                   | How This Script Demonstrates It                                         |
+| ------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **A - Atomicity**   | All or nothing.                                               | If the second insert fails, the first insert is **also rolled back**.   |
+| **C - Consistency** | Keeps DB in a valid state.                                    | Duplicate keys are not allowed, preserving **data integrity**.          |
+| **I - Isolation**   | Intermediate changes are invisible to others.                 | During the transaction, no other users can see partial inserts.         |
+| **D - Durability**  | Once committed, changes are saved even if the system crashes. | If both inserts had succeeded, the data would be **permanently saved**. |
+
+
 
 
 
