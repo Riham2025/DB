@@ -118,6 +118,15 @@ o Write a script that:
 ? Tries to insert two new applicants 
 ? The second insert should have a duplicate ApplicantID (to force failure) 
 ? Rollback the whole transaction if any error occurs
+![](../image/k.PNG)
+
+6. Add this logic: 
+BEGIN TRANSACTION; 
+INSERT INTO Applicants VALUES (104, 'Zahra Al Amri', 'zahra.a@example.com', 'Referral', '2025
+05-10'); 
+INSERT INTO Applicants VALUES (104, 'Error User', 'error@example.com', 'Website', '2025-05
+11'); -- Duplicate ID 
+COMMIT; -- Or use ROLLBACK if needed
 
 
 
