@@ -88,6 +88,10 @@ DELETE FROM Applicants
 WHERE Email IN (SELECT Email FROM Trainees);
 
 
+Batch Script & Transactions
+4. Research: 
+o What is a SQL transaction? 
+
 
 
 
