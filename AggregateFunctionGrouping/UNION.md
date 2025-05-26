@@ -127,7 +127,13 @@ INSERT INTO Applicants VALUES (104, 'Zahra Al Amri', 'zahra.a@example.com', 'Ref
 INSERT INTO Applicants VALUES (104, 'Error User', 'error@example.com', 'Website', '2025-05
 11'); -- Duplicate ID 
 COMMIT; -- Or use ROLLBACK if needed
+![](../image/l.PNG)
 
+ Research and summarize each of the ACID properties: 
+o Atomicity 
+o Consistency 
+o Isolation 
+o Durability
 
 
 
