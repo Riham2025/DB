@@ -52,5 +52,5 @@ BACKUP DATABASE TrainingDB TO DISK = 'C:\Backups\TrainingDB_Full.bak';
 INSERT INTO Students VALUES (3, 'Fatma Said', '2024-01-10');
 ![](../image/z.PNG)
 
-3. Differential Backup 
+3. Differential Backup  : 
 BACKUP DATABASE TrainingDB TO DISK = 'C:\Backups\TrainingDB_Diff.bak' WITH DIFFERENTIAL;
