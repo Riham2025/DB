@@ -10,3 +10,12 @@ Use Case: Used as the base for all other backups. Essential for complete recover
 Frequency: Typically done daily or weekly in production environments.
 
 Restore Needs: You only need the most recent full backup and any subsequent log or differential backups.
+
+2. 📄 Differential Backup
+What It Does: Backs up only the changes made since the last full backup.
+
+Use Case: Saves time and space by not duplicating unchanged data. Common between full backups (e.g., every few hours).
+
+Restore Needs: Requires the last full backup + the latest differential backup.
+
+Example: If a full backup was taken on Sunday, and a differential on Tuesday, it includes changes from Sunday to Tuesday.
