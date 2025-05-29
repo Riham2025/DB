@@ -28,3 +28,12 @@ Use Case: Enables point-in-time recovery, vital for high-availability databases.
 Restore Needs: Requires a full backup and all log backups in sequence up to the desired point.
 
 Note: Only available if the database is in Full or Bulk-logged recovery model.
+
+4. 📋 Copy-Only Backup
+What It Does: Creates a backup without affecting the sequence of other backups (like log chains or differential bases).
+
+Use Case: Useful for on-demand backups without disturbing the backup strategy (e.g., creating a temporary backup before an update).
+
+Types: Can be full or transaction log copy-only backups.
+
+Restore Needs: Treated independently; does not replace regular backups.
