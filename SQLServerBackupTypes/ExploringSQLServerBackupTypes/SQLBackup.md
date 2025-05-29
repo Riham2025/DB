@@ -19,3 +19,12 @@ Use Case: Saves time and space by not duplicating unchanged data. Common between
 Restore Needs: Requires the last full backup + the latest differential backup.
 
 Example: If a full backup was taken on Sunday, and a differential on Tuesday, it includes changes from Sunday to Tuesday.
+
+3. 🧾 Transaction Log Backup
+What It Does: Backs up the transaction log, capturing all changes made since the last log backup.
+
+Use Case: Enables point-in-time recovery, vital for high-availability databases.
+
+Restore Needs: Requires a full backup and all log backups in sequence up to the desired point.
+
+Note: Only available if the database is in Full or Bulk-logged recovery model.
