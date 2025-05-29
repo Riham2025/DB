@@ -44,3 +44,13 @@ What It Does: Backs up individual database files or filegroups.
 Use Case: Useful for very large databases (VLDBs) to back up/restore only parts instead of the entire database.
 
 Restore Needs: Can restore a file or group of files instead of the whole DB, combined with log backups for consistency.
+
+Step 2: Perform Backup Operations 
+1. Full Backup 
+BACKUP DATABASE TrainingDB TO DISK = 'C:\Backups\TrainingDB_Full.bak'; 
+2. Insert New Record (simulate data change) 
+INSERT INTO Students VALUES (3, 'Fatma Said', '2024-01-10');
+![](../image/z.PNG)
+
+3. Differential Backup 
+BACKUP DATABASE TrainingDB TO DISK = 'C:\Backups\TrainingDB_Diff.bak' WITH DIFFERENTIAL;
