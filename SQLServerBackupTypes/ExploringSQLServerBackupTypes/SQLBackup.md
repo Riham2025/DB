@@ -60,3 +60,8 @@ BACKUP DATABASE TrainingDB TO DISK = 'C:\Backups\TrainingDB_Diff.bak' WITH DIFFE
 -- First make sure Recovery Model is FULL 
 ALTER DATABASE TrainingDB SET RECOVERY FULL; 
 -- Now backup the log
+![](../image/c.PNG)
+
+5. Copy-Only Backup 
+BACKUP DATABASE TrainingDB TO DISK = 'C:\Backups\TrainingDB_CopyOnly.bak' WITH 
+COPY_ONLY; 
