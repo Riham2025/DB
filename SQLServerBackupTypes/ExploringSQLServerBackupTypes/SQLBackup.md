@@ -37,3 +37,10 @@ Use Case: Useful for on-demand backups without disturbing the backup strategy (e
 Types: Can be full or transaction log copy-only backups.
 
 Restore Needs: Treated independently; does not replace regular backups.
+
+5. 📦 File / Filegroup Backup
+What It Does: Backs up individual database files or filegroups.
+
+Use Case: Useful for very large databases (VLDBs) to back up/restore only parts instead of the entire database.
+
+Restore Needs: Can restore a file or group of files instead of the whole DB, combined with log backups for consistency.
