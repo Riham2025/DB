@@ -54,3 +54,9 @@ INSERT INTO Students VALUES (3, 'Fatma Said', '2024-01-10');
 
 3. Differential Backup  : 
 BACKUP DATABASE TrainingDB TO DISK = 'C:\Backups\TrainingDB_Diff.bak' WITH DIFFERENTIAL;
+![](../image/x.PNG)
+
+4. Transaction Log Backup 
+-- First make sure Recovery Model is FULL 
+ALTER DATABASE TrainingDB SET RECOVERY FULL; 
+-- Now backup the log
